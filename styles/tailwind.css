@@ -4,9 +4,35 @@
 
 /* Custom Tailwind classes go here */
 @layer components {
-
-    .custom-tailwind {
-        @apply text-white bg-blue-500
+    
+    .petGrid
+     {
+        @apply grid gap-4 grid-cols-3 px-10 py-5 bg-red-300 ;
     }
+     .mainTitle
+     {
+         @apply px-80 py-8 text-3xl font-semibold font-serif;
+     }
+
+     .About
+     {
+       @apply px-10 py-10 text-sm text-blue-600;
+     }
+
+     .copyRight
+     {
+        @apply px-5 py-10 text-sm text-blue-600;
+     }
+
+     .petInfo
+     {
+       @apply py-4 px-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7;
+     }
+
+     .boldUnderline
+     {
+         @apply font-bold underline;
+     }
 
 }
+

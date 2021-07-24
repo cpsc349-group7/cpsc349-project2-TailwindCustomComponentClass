@@ -5,12 +5,10 @@ layout: base
 
 
 
-<div class="grid gap-4 grid-cols-3 px-10 py-5 bg-red-300 ">
+<div class="petGrid">
     <div class= "petContent column font-serif">
         {{ content }}
   </div>
-        
-<div class="column infoPadding">
         <div>
             <h1 class="font-bold">Info</h1>
             <p>Camera Make: {{exif_camera_make}}</p>
@@ -24,4 +22,4 @@ layout: base
             <p>Photographer Name: {{photographer_first_name}} {{photographer_last_name}}</p>
             <p>Username: {{photographer_username}}</p>
         </div>
-</div>
+

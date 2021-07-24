@@ -8,9 +8,9 @@ pagination:
 ---
 <ul>
     {% for photo in pics %}
-    <div class="py-4 px-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
+    <div class="petInfo">
         <li class="text-sm" >
-            <a class="underline font-bold" href="{{ photo.url }}">             
+            <a class="boldUnderline" href="{{ photo.url }}">             
                     A {{ photo.data.photo_keyword }} photo
                     
                     by {{ photo.data.photographer_first_name}} {{ photo.data.photographer_last_name }}
