@@ -9,6 +9,11 @@
      {
         @apply grid gap-4 grid-cols-3 px-10 py-5 bg-red-300 ;
     }
+
+    .aboutGrid
+     {
+        @apply grid gap-4 grid-cols-3 px-10 py-5;
+    }
      .mainTitle
      {
          @apply px-80 py-8 text-3xl font-semibold font-serif;
