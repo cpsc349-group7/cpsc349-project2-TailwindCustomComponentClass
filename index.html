@@ -10,7 +10,7 @@ pagination:
     {% for photo in pics %}
     <div class="petInfo">
         <li class="text-sm" >
-            <a class="boldUnderline" href="/cpsc349-project2-TailwindCustomComponentClass {{photo.url }}">             
+            <a class="boldUnderline" href="/cpsc349-project2-TailwindCustomComponentClass{{photo.url }}">             
                     A {{ photo.data.photo_keyword }} photo
                     
                     by {{ photo.data.photographer_first_name}} {{ photo.data.photographer_last_name }}
