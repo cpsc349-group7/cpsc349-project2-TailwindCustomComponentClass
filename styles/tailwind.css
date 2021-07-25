@@ -39,5 +39,11 @@
          @apply font-bold underline;
      }
 
+     .versionLink
+     {
+       @apply flex-auto px-11 bg-blue-300 font-serif font-bold;
+     }
+
+
 }
 
