@@ -4,19 +4,52 @@
         <meta charset="utf-8"/>
         <title>A document with pet photos</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/cpsc349-project2/styles/tailwind.css">
-        <!-- <link rel="stylesheet" href="/cpsc349-project2/styles/main.css"> -->       
+        <link rel="stylesheet" href=".">
+              
     </head>  
-   
+    <style>
+        :root {
+  --red: ;
+  --green: ;
+  --blue: ;
+
+  --accessible-color: calc(
+   (
+      (
+        (
+          (var(--red) * 299) +
+          (var(--green) * 587) +
+          (var(--blue) * 114)
+        ) / 1000
+      ) - 128
+    ) * -1000
+  );
+}
+
+.background {
+  color:
+    rgb(
+      var(--accessible-color),
+      var(--accessible-color),
+      var(--accessible-color)
+    );
+  background-color:
+    rgb(
+      var(--red),
+      var(--green),
+      var(--blue)
+    );
+}
+    </style>
  
-    
+    <body class="background">
         <div class="h-28 w-34  bg-yellow-300">
             <div class="About">
                 <nav>
                     
-                    <a href="/">Home</a>
+                    <a href="/cpsc349-project2-TailwindCustomComponentClass/">Home</a>
                     
-                        <a href="/about" class="hover:bg-yellow-600">About</a>
+                        <a href="/cpsc349-project2-TailwindCustomComponentClass/about/" class="hover:bg-yellow-600">About</a>
                     </nav>
             </div>
         </div>
@@ -107,7 +140,33 @@
         website developer using JavaScript, HTML, CSS.</p>
     </div>
 </div>
-  </div>
+<div class="versionLink">
+    <div class="websiteHeader">
+        <h1>Website Versions</h1>
+    </div>
+    <div class="aboutContent">
+        <div>
+            <a href="https://cpsc349-group7.github.io/cpsc349-project2-flexbox/"><p>1) A Flexbox layout using standard CSS</p></a>
+        </div>
+        <div>
+            <a href="https://cpsc349-group7.github.io/cpsc349-project2-grid/"><p>1) A Grid layout using standard CSS</p></a>
+        </div>
+        <div>
+            <a href="https://cpsc349-group7.github.io/cpsc349-project2-tailwindCSS/"><p>3) A version of layout Grid using built-in Tailwind CSS classes</p></a>
+        </div>
+        <div>
+            <a href="https://cpsc349-group7.github.io/cpsc349-project2--TailwindCustomComponentClass/"><p>4) A version of (3) using Tailwind custom component classes.</p></a>
+        </div>
+        <div>
+            <div class="websiteHeader">
+                <h1>Three Wireframes</h1>
+            </div>
+            <a href="https://www.figma.com/file/GIG4CxyTNcH89EqvBd9dLd/Page-Wireframes-CSS?node-id=0%3A1"><p>Version 1 on Figma</p></a>
+            <a href="https://www.figma.com/file/GIG4CxyTNcH89EqvBd9dLd/Page-Wireframes-CSS?node-id=107%3A90"><p>Version 2 on Figma</p></a>
+            <a href="https://www.figma.com/file/GIG4CxyTNcH89EqvBd9dLd/Page-Wireframes-CSS?node-id=107%3A92"><p>Version 3 on Figma</p></a>
+        </div>
+</div>
+</div>
             </div>
             
         

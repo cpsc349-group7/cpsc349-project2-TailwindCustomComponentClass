@@ -4,7 +4,7 @@
         <meta charset="utf-8"/>
         <title>A document with pet photos</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="{{ '/styles/tailwind.css' | url }}">
+        <link rel="stylesheet" href="{{ /cpsc349-project2-tailwindCSS/'/styles/tailwind.css' | url }}">
               
     </head>  
     <style>
@@ -14,7 +14,7 @@
   --blue: {{blue}};
 
   --accessible-color: calc(
-    (
+   (
       (
         (
           (var(--red) * 299) +
@@ -47,9 +47,9 @@
             <div class="About">
                 <nav>
                     {% unless page.url == '/' %}
-                    <a href="/">Home</a>
+                    <a href="/cpsc349-project2-TailwindCustomComponentClass/">Home</a>
                     {% endunless %}
-                        <a href="/about" class="hover:bg-yellow-600">About</a>
+                        <a href="/cpsc349-project2-TailwindCustomComponentClass/about/" class="hover:bg-yellow-600">About</a>
                     </nav>
             </div>
         </div>

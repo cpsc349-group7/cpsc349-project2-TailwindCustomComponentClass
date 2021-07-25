@@ -4,19 +4,52 @@
         <meta charset="utf-8"/>
         <title>A document with pet photos</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/cpsc349-project2/styles/tailwind.css">
-        <!-- <link rel="stylesheet" href="/cpsc349-project2/styles/main.css"> -->       
+        <link rel="stylesheet" href=".">
+              
     </head>  
-   
+    <style>
+        :root {
+  --red: ;
+  --green: ;
+  --blue: ;
+
+  --accessible-color: calc(
+   (
+      (
+        (
+          (var(--red) * 299) +
+          (var(--green) * 587) +
+          (var(--blue) * 114)
+        ) / 1000
+      ) - 128
+    ) * -1000
+  );
+}
+
+.background {
+  color:
+    rgb(
+      var(--accessible-color),
+      var(--accessible-color),
+      var(--accessible-color)
+    );
+  background-color:
+    rgb(
+      var(--red),
+      var(--green),
+      var(--blue)
+    );
+}
+    </style>
  
-    
+    <body class="background">
         <div class="h-28 w-34  bg-yellow-300">
             <div class="About">
                 <nav>
                     
-                    <a href="/">Home</a>
+                    <a href="/cpsc349-project2-TailwindCustomComponentClass/">Home</a>
                     
-                        <a href="/about" class="hover:bg-yellow-600">About</a>
+                        <a href="/cpsc349-project2-TailwindCustomComponentClass/about/" class="hover:bg-yellow-600">About</a>
                     </nav>
             </div>
         </div>
@@ -39,7 +72,7 @@
     
     <div class="petInfo">
         <li class="text-sm" >
-            <a class="boldUnderline" href="/photos/080/">             
+            <a class="boldUnderline" href="/cpsc349-project2-TailwindCustomComponentClass /photos/080/">             
                     A dog photo
                     
                     by Nick Martin
@@ -51,7 +84,7 @@
     
     <div class="petInfo">
         <li class="text-sm" >
-            <a class="boldUnderline" href="/photos/081/">             
+            <a class="boldUnderline" href="/cpsc349-project2-TailwindCustomComponentClass /photos/081/">             
                     A cat photo
                     
                     by Caroline Ziemkiewicz
@@ -63,7 +96,7 @@
     
     <div class="petInfo">
         <li class="text-sm" >
-            <a class="boldUnderline" href="/photos/082/">             
+            <a class="boldUnderline" href="/cpsc349-project2-TailwindCustomComponentClass /photos/082/">             
                     A dog photo
                     
                     by Melissa Keizer
@@ -75,7 +108,7 @@
     
     <div class="petInfo">
         <li class="text-sm" >
-            <a class="boldUnderline" href="/photos/083/">             
+            <a class="boldUnderline" href="/cpsc349-project2-TailwindCustomComponentClass /photos/083/">             
                     A dog photo
                     
                     by Fabian Gieske
@@ -87,7 +120,7 @@
     
     <div class="petInfo">
         <li class="text-sm" >
-            <a class="boldUnderline" href="/photos/084/">             
+            <a class="boldUnderline" href="/cpsc349-project2-TailwindCustomComponentClass /photos/084/">             
                     A dog photo
                     
                     by Fabian Gieske
@@ -99,7 +132,7 @@
     
     <div class="petInfo">
         <li class="text-sm" >
-            <a class="boldUnderline" href="/photos/085/">             
+            <a class="boldUnderline" href="/cpsc349-project2-TailwindCustomComponentClass /photos/085/">             
                     A dog photo
                     
                     by FLOUFFY 
@@ -111,7 +144,7 @@
     
     <div class="petInfo">
         <li class="text-sm" >
-            <a class="boldUnderline" href="/photos/086/">             
+            <a class="boldUnderline" href="/cpsc349-project2-TailwindCustomComponentClass /photos/086/">             
                     A cat photo
                     
                     by Dan Wayman
@@ -123,7 +156,7 @@
     
     <div class="petInfo">
         <li class="text-sm" >
-            <a class="boldUnderline" href="/photos/087/">             
+            <a class="boldUnderline" href="/cpsc349-project2-TailwindCustomComponentClass /photos/087/">             
                     A cat photo
                     
                     by Tengyart 
@@ -135,7 +168,7 @@
     
     <div class="petInfo">
         <li class="text-sm" >
-            <a class="boldUnderline" href="/photos/088/">             
+            <a class="boldUnderline" href="/cpsc349-project2-TailwindCustomComponentClass /photos/088/">             
                     A dog photo
                     
                     by Sincerely Media 
@@ -147,7 +180,7 @@
     
     <div class="petInfo">
         <li class="text-sm" >
-            <a class="boldUnderline" href="/photos/089/">             
+            <a class="boldUnderline" href="/cpsc349-project2-TailwindCustomComponentClass /photos/089/">             
                     A dog photo
                     
                     by Michelle Huber
@@ -161,12 +194,12 @@
 <div class="row px-10">
     <div class="column">
         
-            <a href="/7/index.html"><img src="https://img.icons8.com/ios-filled/50/000000/circled-chevron-left.png" width="50px" height="50px"/></a>
+            <a href="/cpsc349-project2-TailwindCustomComponentClass/7/index.html"><img src="https://img.icons8.com/ios-filled/50/000000/circled-chevron-left.png" width="50px" height="50px"/></a>
         
     </div>
     <div class="column">
         
-            <a href="/9/index.html"><img class="rightarrow" src="https://img.icons8.com/ios-filled/50/000000/circled-chevron-right.png" width="50px" height="50px"/></a>
+            <a href="/cpsc349-project2-TailwindCustomComponentClass/9/index.html"><img class="rightarrow" src="https://img.icons8.com/ios-filled/50/000000/circled-chevron-right.png" width="50px" height="50px"/></a>
         
     </div>
 </div>
