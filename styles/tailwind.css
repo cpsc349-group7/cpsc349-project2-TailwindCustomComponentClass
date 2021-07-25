@@ -44,6 +44,14 @@
        @apply flex-auto px-11 bg-blue-300 font-serif font-bold;
      }
 
+     .boraderLayout
+     {
+       @apply relative sm:max-w-max sm:mx-auto border-2 p-12 py-12 mb-12;
+     }
+     .textBlock
+     {
+       @apply relative py-3 sm:max-w-xl sm:mx-auto
+     }
 
 }
 
